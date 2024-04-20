@@ -23,13 +23,43 @@
             <Div class="container-fluid text-left ">
                 <h2>The Author</h2>
                 <!--Gave the about summary a card style and rounded out the edges so that way it didn't seem "sharp." <ade the card background dark as to differentiate from the blog entries.-->
-                <div class="card">
-                <div class="card-body bg-dark text-light rounded-1">
+                <div class="card mb-5">
+                <div class="card-body bg-dark text-light rounded-1 " >
                 <p>Hey, hello! My name is Steven Guevara, I am 26 years old and am currently enrolled in <em>Promineo Tech's</em> <b>Front End Web Design</b> bootcamp course through El Camino College.</p>
                 <p>I am currently in the food industry and although very much fun and exciting, not at all sustainable for living where I live. So let's get this course done!</p>
                 </div>
             </div>
             </Div>
+            <!--Made a little table with where you can find me -->
+            <table class="mx-auto table table-dark" style="max-width: 500px;">
+                <thead>
+                  <tr>
+                    <th>First</th>
+                    <th>Last</th>
+                    <th>Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Steven</td>
+                        <td>Guevara</td>
+                        <td>@CostcoFood</td>
+                    </tr>
+                </tbody>
+                </table>
         </main>
+        <!--Didnt know how to make a contact form so I opted for a quick log in form, didnt have time between work.-->
+        <form class="container-fluid">
+            <div class="form-group">
+              <label>Email address</label>
+              <input type="email" class="form-control" placeholder="Enter email">
+              <small class="form-text text-muted">I WONT TELL</small>
+            </div>
+            <div class="form-group mb-2">
+              <label for="Password">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 </body>
 </html>
