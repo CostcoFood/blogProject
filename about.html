@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
+    <!--Header is given a class that puts its contents into a container and is fluid to the device. Text is aligned to the left and given a dark background with a light next for contrast to make reading easier. Used margin bottom option 3-->
     <header class="container-fluid text-left bg-dark text-light mb-3">
         <h1 class="mb-2 fs-1">About</h1>
+        <!--Nav links are centered and have their underline removed to give a flush feel to the design. Links are given space to prevent stacking.-->
         <nav>
             <ul class="nav nav-tabs justify-content-center link-underline link-underline-opacity-0">
             <li class="nav-item px-2 "><a href="index.html" class=" link-light link-underline link-underline-opacity-0">Home</a></li>
@@ -16,5 +18,18 @@
             </ul>
         </nav>
         </header>
+        <main>
+            <!--Made sure to exclude the the H2 so that way it had a different style than the Home page.-->
+            <Div class="container-fluid text-left ">
+                <h2>The Author</h2>
+                <!--Gave the about summary a card style and rounded out the edges so that way it didn't seem "sharp." <ade the card background dark as to differentiate from the blog entries.-->
+                <div class="card">
+                <div class="card-body bg-dark text-light rounded-1">
+                <p>Hey, hello! My name is Steven Guevara, I am 26 years old and am currently enrolled in <em>Promineo Tech's</em> <b>Front End Web Design</b> bootcamp course through El Camino College.</p>
+                <p>I am currently in the food industry and although very much fun and exciting, not at all sustainable for living where I live. So let's get this course done!</p>
+                </div>
+            </div>
+            </Div>
+        </main>
 </body>
 </html>
